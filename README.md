@@ -1,16 +1,40 @@
-# qrscanner
+# QR Scanner - EV Application Integration
 
-A new Flutter project.
+📱 **Flutter-based QR code scanner.**
 
-## Getting Started
+## 🌟 Overview
 
-This project is a starting point for a Flutter application.
+A mobile application built with Flutter that enables users to scan QR codes at EV charging stations for seamless authentication and charging session initiation. Designed for quick, reliable scanning with EV-specific functionality.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Built With
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- **Framework**: Flutter
+- **Language**: Dart
+- **QR Scanning**: qr_code_scanner / mobile_scanner package
+- **Platform**: Android & iOS
+- **IDE**: Android Studio / VS Code
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📱 Usage
+
+1. **Open the app** on your mobile device
+2. **Point camera** at the QR code on the EV charging station
+3. **Auto-scan** will detect and process the QR code
+4. **Initiate charging** authentication process
+
+## 🔧 Key Components
+
+- **Scanner Screen**: Main QR code scanning interface
+- **Result Processing**: Handles scanned QR code data
+- **EV Integration**: Connects with charging station APIs
+- **Error Handling**: User-friendly error messages and retry options
+
+## 🎯 EV Integration Features
+
+- **Station Authentication**: Quick QR-based login to charging stations
+- **Session Management**: Start/stop charging sessions
+- **Payment Integration**: Secure payment processing via QR codes
+- **Station Information**: Display charging station details and availability
+
+---
+
+*Built with Flutter for seamless EV charging experiences*
